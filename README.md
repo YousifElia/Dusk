@@ -4,10 +4,10 @@ Dusk warms your screen after sunset and again before bed, then brings it back by
 
 ![Dusk on an evening](docs/screenshots/horizon-light.png)
 
-- **600K to 9300K** — f.lux's slider stops at 1200K; Dusk keeps going, and has a Darkroom mode past that
-- **Your day, not a preset clock** — a wake time plus your location's sunrise and sunset
-- **One 345 KB file** — no installer, no runtime to download, no background services
-- **Three ways to see the day** — Horizon, Dial and Strata
+- **600K to 9300K** - f.lux's slider stops at 1200K; Dusk keeps going, and has a Darkroom mode past that
+- **Your day, not a preset clock** - a wake time plus your location's sunrise and sunset
+- **One 345 KB file** - no installer, no runtime to download, no background services
+- **Three ways to see the day** - Horizon, Dial and Strata
 - **Light and dark**, per-monitor DPI, and a window that gets out of the way after 10 seconds
 
 ## The day, played back
@@ -34,12 +34,12 @@ Each change blends over 45 minutes, so nothing switches abruptly. Pick a preset 
 
 | | Light | Dark |
 | --- | --- | --- |
-| **Horizon** — the sun's path over the day's colour | ![](docs/screenshots/horizon-light.png) | ![](docs/screenshots/horizon-dark.png) |
-| **Dial** — the day as a ring | ![](docs/screenshots/dial-light.png) | ![](docs/screenshots/dial-dark.png) |
-| **Strata** — stacked from the moment you wake | ![](docs/screenshots/strata-light.png) | ![](docs/screenshots/strata-dark.png) |
-| **Colors** — presets and one slider per colour | ![](docs/screenshots/colors-light.png) | ![](docs/screenshots/colors-dark.png) |
-| **First run** — two questions, once | ![](docs/screenshots/firstrun-light.png) | ![](docs/screenshots/firstrun-dark.png) |
-| **Tray flyout** — status and quick ways to switch off | ![](docs/screenshots/tray-light.png) | ![](docs/screenshots/tray-dark.png) |
+| **Horizon** - the sun's path over the day's colour | ![](docs/screenshots/horizon-light.png) | ![](docs/screenshots/horizon-dark.png) |
+| **Dial** - the day as a ring | ![](docs/screenshots/dial-light.png) | ![](docs/screenshots/dial-dark.png) |
+| **Strata** - stacked from the moment you wake | ![](docs/screenshots/strata-light.png) | ![](docs/screenshots/strata-dark.png) |
+| **Colors** - presets and one slider per colour | ![](docs/screenshots/colors-light.png) | ![](docs/screenshots/colors-dark.png) |
+| **First run** - two questions, once | ![](docs/screenshots/firstrun-light.png) | ![](docs/screenshots/firstrun-dark.png) |
+| **Tray flyout** - status and quick ways to switch off | ![](docs/screenshots/tray-light.png) | ![](docs/screenshots/tray-dark.png) |
 
 Daytime, for contrast: [light](docs/screenshots/horizon-day-light.png) · [dark](docs/screenshots/horizon-day-dark.png)
 
@@ -87,7 +87,7 @@ f.lux is excellent, and Dusk owes it the idea. Measured on the same PC:
 | Slider range | 600K–9300K | 1200K–9300K |
 | Darkroom mode | yes | yes |
 | Memory, window open | 8–13 MB | 5 MB |
-| Memory, idle in the tray | under 3 MB | — |
+| Memory, idle in the tray | under 3 MB | - |
 | Download | 345 KB, single file | 1.47 MB installer |
 | Colour source | Planck's law + CIE 1931 | curve fit |
 | Schedule | wake time, sunrise, sunset, bedtime | the same idea |
