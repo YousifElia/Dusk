@@ -1,0 +1,16 @@
+PackageIdentifier: Yousif.Dusk
+PackageVersion: 1.1.0
+InstallerType: inno
+Scope: user
+InstallModes:
+  - interactive
+  - silent
+UpgradeBehavior: install
+ReleaseDate: 2026-10-04
+Installers:
+  - Architecture: x86
+    InstallerUrl: https://github.com/YOUR-USERNAME/dusk/releases/download/v1.1.0/DuskSetup-1.1.0.exe
+    # Get this with:  (Get-FileHash dist\DuskSetup-1.1.0.exe -Algorithm SHA256).Hash
+    InstallerSha256: REPLACE_WITH_SHA256_OF_THE_INSTALLER
+ManifestType: installer
+ManifestVersion: 1.6.0

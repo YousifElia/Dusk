@@ -1,0 +1,27 @@
+PackageIdentifier: Yousif.Dusk
+PackageVersion: 1.1.0
+PackageLocale: en-US
+Publisher: Yousif
+PublisherUrl: https://github.com/YOUR-USERNAME
+PublisherSupportUrl: https://github.com/YOUR-USERNAME/dusk/issues
+PackageName: Dusk
+PackageUrl: https://github.com/YOUR-USERNAME/dusk
+License: MIT
+LicenseUrl: https://github.com/YOUR-USERNAME/dusk/blob/main/LICENSE
+ShortDescription: Warms your screen after sunset and again before bed, then brings it back by morning.
+Description: |-
+  Dusk is a small Windows tray app that shifts your screen's colour temperature between 600K and 9300K
+  across the day. It uses your wake time and your location's sunrise and sunset, blending each change
+  over 45 minutes, and has a Darkroom mode that goes warmer still. It ships as a single 345 KB
+  executable with no runtime dependencies.
+Moniker: dusk
+Tags:
+  - blue-light
+  - color-temperature
+  - display
+  - eye-strain
+  - night-light
+  - tray
+ReleaseNotesUrl: https://github.com/YOUR-USERNAME/dusk/releases/tag/v1.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

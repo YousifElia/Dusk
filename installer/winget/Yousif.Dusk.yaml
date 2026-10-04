@@ -1,0 +1,9 @@
+# winget version manifest. Put all three files in a folder named after the version, then open a PR
+# against https://github.com/microsoft/winget-pkgs under manifests/y/Yousif/Dusk/1.0.0/
+# Validate first with:  winget validate .\installer\winget
+# Test an install with:  winget install --manifest .\installer\winget
+PackageIdentifier: Yousif.Dusk
+PackageVersion: 1.1.0
+DefaultLocale: en-US
+ManifestType: version
+ManifestVersion: 1.6.0
