@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dusk — warm your screen after sunset</title>
+<meta name="description" content="A small Windows tray app that warms your screen after sunset and again before bed, then brings it back by morning. 600K to 9300K, one 345 KB file.">
+<link rel="icon" href="screenshots/tray-light.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#F6F3ED; --surface:#FFF; --ink:#1B1917; --muted:#6F6A62; --line:rgba(27,25,23,.16); --accent:#E85A2B; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0E0F14; --surface:#16171E; --ink:#F2F1EC; --muted:#9394A0; --line:rgba(255,255,255,.14); }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:'Hanken Grotesk',system-ui,sans-serif; line-height:1.55; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+  h1, h2 { font-family:'Instrument Serif',Georgia,serif; font-weight:400; letter-spacing:-.01em; margin:0; }
+  h1 { font-size:clamp(40px,7vw,64px); line-height:1.05; }
+  h2 { font-size:32px; margin:56px 0 16px; }
+  p { color:var(--muted); }
+  header { padding:72px 0 40px; }
+  header p { font-size:19px; max-width:48ch; }
+  .cta { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-top:28px; }
+  .button { display:inline-block; padding:13px 22px; border-radius:10px; text-decoration:none; font-weight:600;
+            background:linear-gradient(180deg,#F8B672,#E85A2B); color:#1B1917; box-shadow:0 8px 20px -10px rgba(232,90,43,.7); }
+  .button.secondary { background:transparent; color:var(--ink); border:1px solid var(--line); box-shadow:none; font-weight:500; }
+  .note { font-size:14px; }
+  img { max-width:100%; border-radius:10px; border:1px solid var(--line); display:block; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:18px; }
+  .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:24px; margin-top:24px; }
+  .features h3 { font-size:16px; margin:0 0 4px; }
+  .features p { margin:0; font-size:15px; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); }
+  th { font-weight:600; }
+  footer { margin:72px 0 48px; font-size:14px; color:var(--muted); }
+  a { color:var(--ink); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Your screen, warmer after sunset.</h1>
+    <p>Dusk shifts your screen's colour from daylight to candlelight as the evening goes on, then brings it back by morning. It sits in the tray, starts with Windows, and uses about 8 MB.</p>
+    <div class="cta">
+      <a class="button" href="https://github.com/YOUR-USERNAME/dusk/releases/latest">Download for Windows</a>
+      <a class="button secondary" href="https://github.com/YOUR-USERNAME/dusk">View the source</a>
+    </div>
+    <p class="note">One 345 KB file. Windows 10 and 11. No installer needed, no account, no telemetry.</p>
+  </header>
+
+  <img src="screenshots/horizon-light.png" alt="Dusk showing the evening's screen colour">
+
+  <div class="features">
+    <div><h3>600K to 9300K</h3><p>f.lux's slider stops at 1200K. Dusk keeps going, and Darkroom goes further still.</p></div>
+    <div><h3>Your day</h3><p>A wake time plus your location's sunrise and sunset. Bedtime colours start 9 hours before you wake.</p></div>
+    <div><h3>Three views</h3><p>See the day as a horizon, a dial, or stacked bands. Drag any of them to preview a time.</p></div>
+    <div><h3>Out of the way</h3><p>The window fades after ten seconds. The tray icon turns Dusk off for an hour, until sunrise, or for one app.</p></div>
+  </div>
+
+  <h2>A day, in three seconds</h2>
+  <img src="media/day-cycle.gif" alt="The screen colour changing across a whole day">
+
+  <h2>Pick how you see it</h2>
+  <div class="grid">
+    <img src="media/views.gif" alt="Horizon, Dial and Strata views">
+    <img src="media/themes.gif" alt="Light and dark themes">
+  </div>
+
+  <h2>Dusk and f.lux</h2>
+  <table>
+    <tr><th></th><th>Dusk</th><th>f.lux</th></tr>
+    <tr><td>Slider range</td><td>600K–9300K</td><td>1200K–9300K</td></tr>
+    <tr><td>Darkroom mode</td><td>yes</td><td>yes</td></tr>
+    <tr><td>Memory, window open</td><td>8–13 MB</td><td>5 MB</td></tr>
+    <tr><td>Memory, idle in the tray</td><td>under 3 MB</td><td>—</td></tr>
+    <tr><td>Download</td><td>345 KB, single file</td><td>1.47 MB installer</td></tr>
+    <tr><td>Colour source</td><td>Planck's law + CIE 1931</td><td>curve fit</td></tr>
+  </table>
+  <p class="note">f.lux is the more mature app, with per-app rules and smart-light support. Dusk goes warmer, installs nothing, and its maths is covered by tests.</p>
+
+  <footer>
+    MIT licensed. Fonts: Instrument Serif and Hanken Grotesk, under the SIL Open Font License.
+    <a href="https://github.com/YOUR-USERNAME/dusk/issues">Report a problem</a>.
+  </footer>
+
+</div>
+</body>
+</html>
