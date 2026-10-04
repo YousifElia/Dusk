@@ -1,0 +1,26 @@
+name: Build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Dusk builds with the C# compiler that ships with Windows, so there is nothing to install.
+      - name: Build
+        run: .\build.cmd
+
+      - name: Test
+        run: .\bin\DuskTests.exe
+
+      - name: Upload Dusk.exe
+        uses: actions/upload-artifact@v4
+        with:
+          name: Dusk-exe
+          path: bin/Dusk.exe
