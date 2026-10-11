@@ -1,6 +1,6 @@
 # Dusk
 
-[Watch Dusk Demo](docs/media/DuskIntroduction.mp4)
+https://github.com/user-attachments/assets/4d1fad25-75ef-43d1-b121-0b1af690680e
 
 - **600K to 9300K** - slider stops at 1200K; Dusk keeps going, and has a Darkroom mode past that
 - **Your day, not a preset clock** - a wake time plus your location's sunrise and sunset
