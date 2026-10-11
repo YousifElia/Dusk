@@ -1,6 +1,6 @@
 # Dusk
 
-![Dusk Demo](docs/media/DuckIntroduction.mp4)
+![Dusk Demo](docs/media/DuskIntroduction.mp4)
 
 - **600K to 9300K** - f.lux's slider stops at 1200K; Dusk keeps going, and has a Darkroom mode past that
 - **Your day, not a preset clock** - a wake time plus your location's sunrise and sunset
