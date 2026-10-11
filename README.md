@@ -2,7 +2,7 @@
 
 ![Dusk Demo](docs/media/DuskIntroduction.mp4)
 
-- **600K to 9300K** - f.lux's slider stops at 1200K; Dusk keeps going, and has a Darkroom mode past that
+- **600K to 9300K** - slider stops at 1200K; Dusk keeps going, and has a Darkroom mode past that
 - **Your day, not a preset clock** - a wake time plus your location's sunrise and sunset
 - **One 345 KB file** - no installer, no runtime to download, no background services
 - **Three ways to see the day** - Horizon, Dial and Strata
@@ -89,8 +89,6 @@ f.lux is excellent, and Dusk owes it the idea. Measured on the same PC:
 | Download | 345 KB, single file | 1.47 MB installer |
 | Colour source | Planck's law + CIE 1931 | curve fit |
 | Schedule | wake time, sunrise, sunset, bedtime | the same idea |
-
-f.lux is the more mature app: per-app rules, smart-light integration and years of tuning. Dusk goes warmer, installs nothing and keeps its maths under test.
 
 ## Build
 
