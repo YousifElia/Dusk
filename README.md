@@ -1,8 +1,6 @@
 # Dusk
 
-Dusk warms your screen after sunset and again before bed, then brings it back by morning. It lives in the tray, starts with Windows and runs on about 8 MB of memory.
-
-![Dusk on an evening](docs/screenshots/horizon-light.png)
+![Dusk Demo](docs/media/DuckIntroduction.mp4)
 
 - **600K to 9300K** - f.lux's slider stops at 1200K; Dusk keeps going, and has a Darkroom mode past that
 - **Your day, not a preset clock** - a wake time plus your location's sunrise and sunset
